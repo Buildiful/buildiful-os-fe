@@ -14,6 +14,8 @@ echo
 echo
 ./bin/check_user.sh
 echo
+./modules/check_dependencies.sh
+echo
 ./modules/create_user_dirs.sh
 echo
 ./modules/write_machine_profile.sh
