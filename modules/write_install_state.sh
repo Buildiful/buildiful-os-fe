@@ -10,6 +10,7 @@ STATE_FILE="${STATE_DIR}/install-state.env"
 TIMESTAMP="$(date '+%Y-%m-%d %H:%M:%S')"
 
 mkdir -p "${STATE_DIR}"
+sudo chown -R "${CURRENT_USER}:${CURRENT_USER}" "${STATE_DIR}"
 
 cat > "${STATE_FILE}" <<EOP
 BUILDIFUL_OS_INSTALLED="true"
