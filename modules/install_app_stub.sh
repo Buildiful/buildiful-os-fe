@@ -9,6 +9,7 @@ APP_DIR="${USER_HOME}/Buildiful/apps/stock-trading-agent"
 APP_FILE="${APP_DIR}/README.txt"
 
 mkdir -p "${APP_DIR}"
+sudo chown -R "${CURRENT_USER}:${CURRENT_USER}" "${APP_DIR}"
 
 cat > "${APP_FILE}" <<EOP
 Stock Trading Agent
