@@ -11,6 +11,7 @@ TIMESTAMP="$(date '+%Y-%m-%d %H:%M:%S')"
 HOSTNAME_VALUE="$(hostname)"
 
 mkdir -p "${LOG_DIR}"
+sudo chown -R "${CURRENT_USER}:${CURRENT_USER}" "${LOG_DIR}"
 
 cat >> "${LOG_FILE}" <<EOP
 [${TIMESTAMP}] buildiful-os-fe install run started
