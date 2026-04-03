@@ -16,6 +16,8 @@ echo
 echo
 ./modules/check_dependencies.sh
 echo
+./modules/install_core_packages.sh
+echo
 ./modules/create_user_dirs.sh
 echo
 ./modules/write_machine_profile.sh
