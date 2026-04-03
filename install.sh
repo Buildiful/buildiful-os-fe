@@ -30,6 +30,8 @@ echo
 echo
 ./modules/install_tmux.sh
 echo
+./modules/install_cron.sh
+echo
 ./modules/create_user_dirs.sh
 echo
 ./modules/write_machine_profile.sh
