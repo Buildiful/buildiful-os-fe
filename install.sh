@@ -20,6 +20,8 @@ echo
 echo
 ./modules/install_cli_baseline.sh
 echo
+./modules/install_github_cli.sh
+echo
 ./modules/create_user_dirs.sh
 echo
 ./modules/write_machine_profile.sh
