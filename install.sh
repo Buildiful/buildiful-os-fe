@@ -24,6 +24,8 @@ echo
 echo
 ./modules/install_python_tooling.sh
 echo
+./modules/install_nodejs.sh
+echo
 ./modules/create_user_dirs.sh
 echo
 ./modules/write_machine_profile.sh
