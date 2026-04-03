@@ -1,0 +1,4 @@
+Buildiful OS [Founder Edition]
+Version: 1.0.0
+Channel: founder-edition
+Base: Ubuntu 24.04 LTS
