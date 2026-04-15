@@ -10,36 +10,42 @@ echo "Version: ${BUILDIFUL_OS_VERSION}"
 echo "Channel: ${BUILDIFUL_OS_CHANNEL}"
 echo
 
-./bin/check_system.sh
+bash ./bin/check_system.sh
 echo
-./bin/check_user.sh
+bash ./bin/check_user.sh
 echo
-./modules/check_dependencies.sh
+bash ./modules/check_dependencies.sh
 echo
-./modules/install_core_packages.sh
+bash ./modules/install_core_packages.sh
 echo
-./modules/install_cli_baseline.sh
+bash ./modules/install_cli_baseline.sh
 echo
-./modules/install_github_cli.sh
+bash ./modules/install_github_cli.sh
 echo
-./modules/install_python_tooling.sh
+bash ./modules/install_python_tooling.sh
 echo
-./modules/install_nodejs.sh
+bash ./modules/install_nodejs.sh
 echo
-./modules/install_sqlite.sh
+bash ./modules/install_sqlite.sh
 echo
-./modules/install_tmux.sh
+bash ./modules/install_tmux.sh
 echo
-./modules/install_cron.sh
+bash ./modules/install_cron.sh
 echo
-./modules/create_user_dirs.sh
+bash ./modules/create_user_dirs.sh
 echo
-./modules/write_machine_profile.sh
+bash ./modules/write_machine_profile.sh
 echo
-./modules/init_log.sh
+bash ./modules/init_log.sh
 echo
-./modules/install_branding_stub.sh
+bash ./modules/install_branding_stub.sh
 echo
-./modules/install_app_stub.sh
+bash ./modules/install_cli.sh
 echo
-./modules/write_install_state.sh
+bash ./modules/write_install_state.sh
+echo
+echo "Install complete."
+echo "Next steps:"
+echo "  bos version"
+echo "  bos status"
+echo "  bos doctor"
