@@ -2,3 +2,5 @@ Buildiful OS [Founder Edition]
 Version: 1.0.0
 Channel: founder-edition
 Base: Ubuntu 24.04 LTS
+
+A local-first workspace layer for turning your own computer into a structured AI agent workstation.

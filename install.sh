@@ -38,6 +38,12 @@ bash ./modules/write_machine_profile.sh
 echo
 bash ./modules/init_log.sh
 echo
+bash ./modules/install_docs.sh
+echo
+bash ./modules/install_config_templates.sh
+echo
+bash ./modules/install_example_packs.sh
+echo
 bash ./modules/install_branding_stub.sh
 echo
 bash ./modules/install_cli.sh
